@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <title>Landing Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css">
+    <script type="text/javascript">
+        function goToNewPage()
+        {
+            var url = document.getElementById('areas').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+</header>
+
+<body>
+    <div class="wrapper">
+        <div class="section-1">
+            <div class="header">
+                <h2 class="logo">Climb Maryland</h2>
+                <ul class="header-links">
+                    <li>
+                        <form>
+                        <select class="areas" id="areas" accesskey="target"> 
+                            <option>Climbing Areas</option>
+                            <option value="./pages/cunningham-falls/c-falls.html">Cunningham Falls</option>
+                            <option value="./pages/wolf-rock/wolf-rock.html">Wolf Rock</option>
+                            <input class="areas-button" type=button value="Go" onclick="goToNewPage()" />
+                        </select>
+                    </form>
+                    </li>
+                    <li>Climbing Gyms</li>
+                    <li>Climbing Stores</li>
+                </ul>
+            </div>
+            
+            <div class="hero">
+                <div class="hero-content">
+                    <h2>The Guide to Maryland Climbing</h2>
+                    <p>The most complete, online guide to Marlyand's climbing. The best part: IT'S FREE!</p>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="image">
+                    <img class="hero-pic" src="./images/hero-pic2.jpeg" alt="Landscape image of mountain lake">
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="title">
+                <h3>Climbs of the Day</h3>
+            </div>
+            <div class="deck">
+                <div class="card">
+                    <img src='./images2/pic-one.jpeg' alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> Maui, V0 <br>
+                        <strong>Climber:</strong> Rico
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images2/pic-two.jpeg" alt="Male bouldering outside">
+                    </div>
+                    <p><strong>Climb:</strong> Tennies Mantle, V2 <br>
+                        <strong>Climber:</strong> Rico
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images2/pic-three.jpeg" alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> the TRAVERSE, V5 <br>
+                        <strong>Climber:</strong> Rico
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images2/pic-four.jpeg" alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> Maui, V0 <br>
+                        <strong>Climber:</strong> Aed
+                    </p>
+                </div>
+            
+            </div>
+        </div>
+        <div class="section-3">
+                <div class="quote-card">
+                <div class="quote">
+                    <p> Crimp Hard. Engage Your Core. Get High Feet. If all else fails... Just Campus It.</p>
+                </div>
+                <div class="author">
+                    <p>- Rico, of Southern Grit</p>
+                </div>
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="action-card">
+                <div class="text">
+                    <h2>Fuel the Send!</h2>
+                    <p>Help expand the guide by supporting us!</p>
+                </div>
+                <div><button>Donate</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>Copyright © Climb Maryland 2022</p>
+</footer>
+
+</html>
