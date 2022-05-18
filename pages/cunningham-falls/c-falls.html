@@ -3,15 +3,17 @@
 <header>
     <title>Landing Page</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./c-falls.css">
     <script type="text/javascript">
         function goToNewPage()
-        {
+        {   
             var url = document.getElementById('areas').value;
             if(url != 'none') {
                 window.location = url;
             }
         }
+
+        
     </script>
 </header>
 
@@ -19,56 +21,54 @@
     <div class="wrapper">
         <div class="section-1">
             <div class="header">
-                <h2 class="logo">Climb Maryland</h2>
+                <h2 class="logo"><a href="../../index.html">Climb Maryland</a></h2>
                 <ul class="header-links">
                     <li>
                         <form>
                         <select class="areas" id="areas" accesskey="target"> 
-                            <option>Climbing Areas</option>
-                            <option value="./pages/cunningham-falls/c-falls.html">Cunningham Falls</option>
-                            <option value="./pages/wolf-rock/wolf-rock.html">Wolf Rock</option>
+                            <option value="./c-falls.html">Cunningham Falls</option>
+                            <option value="../wolf-rock/wolf-rock.html">Wolf Rock</option>
                             <input class="areas-button" type=button value="Go" onclick="goToNewPage()" />
                         </select>
                     </form>
                     </li>
-                    <li>Climbing Gyms</li>
-                    <li>Climbing Stores</li>
+                    <li>Directions</li>
                 </ul>
             </div>
-            
             <div class="hero">
                 <div class="hero-content">
-                    <h2>The Guide to Maryland Climbing</h2>
-                    <p>The most complete, online guide to Marlyand's climbing. The best part: IT'S FREE!</p>
-                    <div class="button">
-                        <button>Sign Up</button>
-                    </div>
+                    <h2>Cunningham Falls!</h2>
+                    <p>A nice little area just north of Frederick, MD! Has a few dozen etablished problems that will test your crimp strength. With a short hike from the parking lot, this is a gym rat's dream.</p>
                 </div>
                 <div class="image">
-                    <img class="hero-pic" src="./images2/hero-pic2.jpg" alt="Landscape image of mountain lake">
+                    <img class="hero-pic" src="./images/jonah-boulder.jpeg" alt="Picture of the Jonah Boulder">
                 </div>
             </div>
         </div>
         <div class="section-2">
             <div class="title">
-                <h3>Climbs of the Day</h3>
+                <h3 id="boulders">Boulders</h3>
             </div>
             <div class="deck">
                 <div class="card">
-                    <img src='./images2/pic-one.jpeg' alt="Male bouldering outside">
-                    <p><strong>Climb:</strong> Maui, V0 <br>
-                        <strong>Climber:</strong> Rico
+                    <a href="./boulders/jonah.html">
+                        <img src='./images/jonah.jpg' alt="Male bouldering outside">
+                    </a>
+                    <p><strong>Boulder:</strong> Jonah <br>
+                        <strong>Climbs:</strong> 15
                     </p>
                 </div>
                 <div class="card">
                     <div class="card-image">
-                        <img src="./images2/pic-two.jpeg" alt="Male bouldering outside">
+                        <a href="./boulders/squirrel.html">
+                          <img src="./images/squirrel.jpg" alt="Male bouldering outside">
+                        </a>
                     </div>
-                    <p><strong>Climb:</strong> Tennies Mantle, V2 <br>
-                        <strong>Climber:</strong> Rico
+                    <p><strong>Boulder:</strong> Squirrel <br>
+                        <strong>Climbs:</strong> 2
                     </p>
                 </div>
-                <div class="card">
+                <!--<div class="card">
                     <img src="./images2/pic-three.jpeg" alt="Male bouldering outside">
                     <p><strong>Climb:</strong> the TRAVERSE, V5 <br>
                         <strong>Climber:</strong> Rico
@@ -79,11 +79,11 @@
                     <p><strong>Climb:</strong> Maui, V0 <br>
                         <strong>Climber:</strong> Aed
                     </p>
-                </div>
+                </div> -->
             
             </div>
         </div>
-        <div class="section-3">
+        <!--<div class="section-3">
                 <div class="quote-card">
                 <div class="quote">
                     <p> Crimp Hard. Engage Your Core. Get High Feet. If all else fails... Just Campus It.</p>
@@ -92,7 +92,7 @@
                     <p>- Rico, of Southern Grit</p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="section-4">
             <div class="action-card">
                 <div class="text">

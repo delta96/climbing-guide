@@ -1,4 +1,4 @@
- body, html {
+body, html {
     margin: 0;
     padding: 0;
 
@@ -61,7 +61,7 @@ button {
 }
 
 .hero-content p {
-    font-size: 18px;
+    font-size: 20px;
     color: #E5E7EB;
     margin: 12px 0px;
 }
@@ -88,6 +88,19 @@ button {
     color: #F9FAF8;
 }
 
+.logo a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: snow;
+}
+
+.logo:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .header-links {
     font-size: 16px;
     color: snow;
@@ -105,6 +118,19 @@ button {
     background: #3882F6;
     border-radius: 15px;
     padding: 5px 8px;
+    
+}
+
+.boulders {
+    text-decoration: none;
+}
+
+.boulders:hover {
+    text-decoration: underline;
+}
+
+.boulder:visited {
+    color: snow;
 }
 
 .areas {
@@ -121,7 +147,7 @@ button {
     color: snow;
 }
 
-.section-2{
+.section-2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -139,7 +165,9 @@ button {
 
 .deck{
     display: flex;
-    gap: 30px;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card {
@@ -197,6 +225,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #E5E7EB;
 }
 
 .action-card {

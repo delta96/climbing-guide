@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <title>Landing Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./see-nuts.css">
+    <script type="text/javascript">
+        function goToNewPage()
+        {
+            var url = document.getElementById('areas').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+
+
+    </script>
+</header>
+
+<body>
+    <div class="wrapper">
+        <div class="section-1">
+            <div class="header">
+                <h2 class="logo"><a href="../../../../index.html">Climb Maryland</a></h2>
+                <ul class="header-links">
+                    <li>
+                        <form>
+                            <select class="areas" id="areas" accesskey="target"> 
+                                <option value="../c-falls.html">Cunningham Falls</option>
+                                <option value="../../wolf-rock/wolf-rock.html">Wolf Rock</option>
+                                <input class="areas-button" type=button value="Go" onclick="goToNewPage()" />
+                                </select>
+                        </form>
+                    </li>
+                    <li>
+                        <a class="boulders" href="../squirrel.html#climbs">Climbs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero">
+                <div class="hero-content">
+                    <h2>I Can See Your Nuts</h2>
+                    <p>
+                        <strong>Grade:</strong> V1+ <br>
+                        <strong>Rating:</strong> 1/5 <br>
+                        <strong>FA:</strong> Ryan Mallory <br>
+                    </p>
+                </div>
+                <div class="image">
+                    <img class="hero-pic" src="../images/see-nuts.jpg" alt="I Can See Your Nuts climb">
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="title">
+                <h3><u>Information</u></h3>
+            </div>
+            <div class="deck">
+                
+                <div class="card-content">
+                    <h2>Description</h2>
+                    <p>
+                        Stand start on a far right crimp and a far right sloppy hold. 
+                        Get a high left foot and stand up. There are some hidden, savior crimps along the way
+                        to the top. Once you reach the lip, it is just a matter of pulling the mantle.
+                    </p>
+                </div>
+                <div class="card-image">
+                    <a class="pop" href="">
+                        <img class="climb-pic" src="../images/see-nuts-beta.jpg" alt="I Can See Your Nuts climb">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="deck2">
+                
+                    <div class="card-content2">
+                        <h2>Directions</h2>
+                        <p>
+                            I Can See Your Nuts is located on the Squirrel Boulder, on the opposite side of all
+                            the main climbs. It's the first climb visible from the trail, if you hiked up from the 
+                            parking lot.
+                        </p>
+                    </div>
+                    <div class="card-image2">
+                        <img class="climb-pic2" src="../images/see-nuts.jpg" alt="I Can See Your Nuts climb">
+                    </div>
+            </div>
+            <div class="deck3">
+                <div class="card-content3">
+                    <h2>Beta Video</h2>
+                    <video class="card-image3" controls>
+                        <source src="../videos/see-nuts-vid.mp4" type="video/mp4">
+                    </video>
+                </div> 
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="action-card">
+                <div class="text">
+                    <h2>Fuel the Send!</h2>
+                    <p>Help expand the guide by supporting us!</p>
+                </div>
+                <div><button>Donate</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>Copyright © Climb Maryland 2022</p>
+</footer>
+
+
+</html>

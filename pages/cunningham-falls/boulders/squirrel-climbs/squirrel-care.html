@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <title>Landing Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./chipmonk.css">
+    <script type="text/javascript">
+        function goToNewPage()
+        {
+            var url = document.getElementById('areas').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+</header>
+
+<body>
+    <div class="wrapper">
+        <div class="section-1">
+            <div class="header">
+                <h2 class="logo"><a href="../../../../index.html">Climb Maryland</a></h2>
+                <ul class="header-links">
+                    <li>
+                        <form>
+                            <select class="areas" id="areas" accesskey="target"> 
+                                <option value="../../c-falls.html">Cunningham Falls</option>
+                                <option value="../../../wolf-rock/wolf-rock.html">Wolf Rock</option>
+                                <input class="areas-button" type=button value="Go" onclick="goToNewPage()" />
+                                </select>
+                        </form>
+                    </li>
+                    <li>
+                        <a class="boulders" href="../squirrel.html#climbs">Climbs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero">
+                <div class="hero-content">
+                    <h2>Ground Squirrel Don't Care</h2>
+                    <p>
+                        <strong>Grade:</strong> V1 <br>
+                        <strong>Rating:</strong> 2.5/5 <br>
+                        <strong>FA:</strong> Unkown <br>
+                    </p>
+                </div>
+                <div class="image">
+                    <img class="hero-pic" src="../images/squirrel.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="title">
+                <h3><u>Information</u></h3>
+            </div>
+            <div class="deck">
+                
+                <div class="card-content">
+                    <h2>Description</h2>
+                    <p>
+                       <b>Ground Squirrel Don't Care</b> sit starts on a nice jug rail. Move up to couple crimp jugs,
+                       get a high heel hook to pull your hips over so you can grab a juggy side pull around 
+                       the arete. Climb up and back around to the face to the second, higher jug rail, then 
+                       top out.
+                    </p>
+                </div>
+                <div class="card-image">
+                    <a class="pop" href="">
+                        <img class="climb-pic" src="../images/squirrel-beta.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            
+            <div class="deck2">
+                
+                    <div class="card-content2">
+                        <h2>Directions</h2>
+                        <p>
+                            <b>Ground Squirrel Don't Care</b> is located on the Squirrel Boulder on main wall.
+                            Obvious climb on the slight overhanging wall, left of Nut Dragger and Chip Monk.  
+                        </p>
+                    </div>
+                    <div class="card-image2">
+                        <img class="climb-pic2" src="../images/squirrel.jpg" alt="">
+                    </div>
+            </div>
+            <div class="deck3">
+                <div class="card-content3">
+                    <h2>Beta Video</h2>
+                    <video class="card-image3" controls>
+                        <source src="../videos/squirrel-beta.mp4" type="video/mp4">
+                    </video>
+                </div> 
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="action-card">
+                <div class="text">
+                    <h2>Fuel the Send!</h2>
+                    <p>Help expand the guide by supporting us!</p>
+                </div>
+                <div><button>Donate</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>Copyright © Climb Maryland 2022</p>
+</footer>
+
+</html>

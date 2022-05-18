@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <title>Landing Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./jonah.css">
+    <script type="text/javascript">
+        function goToNewPage()
+        {
+            var url = document.getElementById('areas').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+</header>
+
+<body>
+    <div class="wrapper">
+        <div class="section-1">
+            <div class="header">
+                <h2 class="logo"><a href="../../../index.html">Climb Maryland</a></h2>
+                <ul class="header-links">
+                    <li>
+                        <form>
+                            <select class="areas" id="areas" accesskey="target"> 
+                                <option value="../c-falls.html">Cunningham Falls</option>
+                                <option value="../../wolf-rock/wolf-rock.html">Wolf Rock</option>
+                                <input class="areas-button" type=button value="Go" onclick="goToNewPage()" />
+                            </select>
+                        </form>
+                    </li>
+                    <li>
+                        <a class="boulders" href="../c-falls.html#boulders">Boulders</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero">
+                <div class="hero-content">
+                    <h2>The Jonah Boulder</h2>
+                    <p>This is Cunningham Falls' gem! This boulder hosts over two dozen climbs, everything from crimpy slabs to thuggy overhangs!</p>
+                </div>
+                <div class="image">
+                    <img class="hero-pic" src="./images/jonah-boulder.jpeg" alt="Landscape image of mountain lake">
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="title">
+                <h3 id="climbs">Climbs</h3>
+            </div>
+            <div class="deck">
+                <div class="card">
+                    <a href="./jonah-climbs/belly.html">
+                        <img src='./images/the-belly.jpg' alt="the belly">
+                    </a>
+                    <p><strong>Climb:</strong> The Belly <br>
+                        <strong>Grade:</strong> V5
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <a href="./jonah-climbs/baron.html">
+                            <img src="./images/baron.jpg" alt="Baron Harkonnen">
+                        </a>
+                    </div>
+                    <p><strong>Climb:</strong> Baron Harokonnen <br>
+                        <strong>Grade:</strong> V7
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images/What's the Plural of Doofus.jpg" alt="What's the Plural of Doofus">
+                    <p><strong>Climb:</strong> What's the Plural of Doofus <br>
+                        <strong>Grade:</strong> V3
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images/plankton.jpg" alt="Plankton">
+                    <p><strong>Climb:</strong> Plankton <br>
+                        <strong>Grade:</strong> V1
+                    </p>
+                </div> <!-- 
+                <div class="card">
+                    <img src='./images2/pic-one.jpeg' alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> Maui <br>
+                        <strong>Grade:</strong> V0
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images2/pic-two.jpeg" alt="Male bouldering outside">
+                    </div>
+                    <p><strong>Climb:</strong> Tennies Mantle <br>
+                        <strong>Grade:</strong> V2
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images2/pic-three.jpeg" alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> the TRAVERSE <br>
+                        <strong>Grade:</strong> V5
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images2/pic-four.jpeg" alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> Maui <br>
+                        <strong>Grade:</strong> V0
+                    </p>
+                </div>
+                <div class="card">
+                    <img src='./images2/pic-one.jpeg' alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> Maui <br>
+                        <strong>Grade:</strong> V0
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images2/pic-two.jpeg" alt="Male bouldering outside">
+                    </div>
+                    <p><strong>Climb:</strong> Tennies Mantle <br>
+                        <strong>Grade:</strong> V2
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images2/pic-three.jpeg" alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> the TRAVERSE <br>
+                        <strong>Grade:</strong> V5
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images2/pic-four.jpeg" alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> Maui <br>
+                        <strong>Grade:</strong> V0
+                    </p>
+                </div>
+                <div class="card">
+                    <img src='./images2/pic-one.jpeg' alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> Maui <br>
+                        <strong>Grade:</strong> V0
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images2/pic-two.jpeg" alt="Male bouldering outside">
+                    </div>
+                    <p><strong>Climb:</strong> Tennies Mantle <br>
+                        <strong>Grade:</strong> V2
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images2/pic-three.jpeg" alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> the TRAVERSE <br>
+                        <strong>Grade:</strong> V5
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images2/pic-four.jpeg" alt="Male bouldering outside">
+                    <p><strong>Climb:</strong> Maui <br>
+                        <strong>Grade:</strong> V0
+                    </p>
+                </div> -->
+            
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="action-card">
+                <div class="text">
+                    <h2>Fuel the Send!</h2>
+                    <p>Help expand the guide by supporting us!</p>
+                </div>
+                <div><button>Donate</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>Copyright © Climb Maryland 2022</p>
+</footer>
+
+</html>

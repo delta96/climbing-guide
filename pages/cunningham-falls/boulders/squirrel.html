@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <title>Landing Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./jonah.css">
+    <script type="text/javascript">
+        function goToNewPage()
+        {
+            var url = document.getElementById('areas').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+</header>
+
+<body>
+    <div class="wrapper">
+        <div class="section-1">
+            <div class="header">
+                <h2 class="logo"><a href="../../../index.html">Climb Maryland</a></h2>
+                <ul class="header-links">
+                    <li>
+                        <form>
+                            <select class="areas" id="areas" accesskey="target"> 
+                                <option value="../c-falls.html">Cunningham Falls</option>
+                                <option value="../../wolf-rock/wolf-rock.html">Wolf Rock</option>
+                                <input class="areas-button" type=button value="Go" onclick="goToNewPage()" />
+                                </select>
+                        </form>
+                    </li>
+                    <li>
+                        <a class="boulders" href="../c-falls.html#boulders">Boulders</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hero">
+                <div class="hero-content">
+                    <h2>The Squirrel Boulder!</h2>
+                    <p>This is Cunningham Falls' gem! This boulder hosts over two dozen climbs, everything from crimpy slabs to thuggy overhangs!</p>
+                </div>
+                <div class="image">
+                    <img class="hero-pic" src="./images/squirrel-boulder.jpg" alt="Squirrel Boulder">
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="title" id="climbs">
+                <h3>Climbs</h3>
+            </div>
+            <div class="deck">
+                <div class="card">
+                    <a href="./squirrel-climbs/see-nuts.html">
+                        <img src='./images/see-nuts.jpg' alt="I Can See Your Nuts climb">
+                     </a>    
+                    <p><strong>Climb:</strong> I Can See Your Nuts <br>
+                        <strong>Grade:</strong> V1+
+                    </p>
+                </div>
+                <div class="card">
+                    <a href="./squirrel-climbs/nut-dragger.html">
+                        <img src="./images/chipmunk.jpg" alt="Nut Dragger climb">
+                    </a>
+                    <p><strong>Climb:</strong> Nut Dragger <br>
+                        <strong>Grade:</strong> V0
+                    </p>
+                </div>
+                <div class="card">
+                    <a href="./squirrel-climbs/chipmonk.html">
+                        <img src="./images/chipmunk.jpg" alt="Chip Monk climb">
+                    </a>
+                    <p><strong>Climb:</strong> Chip Monk <br>
+                        <strong>Grade:</strong> V2
+                    </p>
+                </div>
+                <div class="card">
+                    <a href="./squirrel-climbs/squirrel-care.html">
+                        <img src="./images/squirrel-multi.jpg" alt="Ground Squirrel Don't Care climb">
+                    </a>
+                    <p><strong>Climb:</strong> Ground Squirrel Don't Care <br>
+                        <strong>Grade:</strong> V1
+                    </p>
+                </div>
+                <div class="card">
+                    <a href="./squirrel-climbs/squirrel-var.html">
+                        <img src='./images/squirrel-multi.jpg' alt="Squirrel Variation Climb">
+                    </a>
+                    <p><strong>Climb:</strong> Squirrel Variation <br>
+                        <strong>Grade:</strong> V2
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <a href="./squirrel-climbs/flying-squirrel.html">
+                            <img src="./images/squirrel-multi.jpg" alt="Flying Squirrel climb">
+                        </a>
+                    </div>
+                    <p><strong>Climb:</strong> Flying Squirrel <br>
+                        <strong>Grade:</strong> V4
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="action-card">
+                <div class="text">
+                    <h2>Fuel the Send!</h2>
+                    <p>Help expand the guide by supporting us!</p>
+                </div>
+                <div><button>Donate</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>Copyright © Climb Maryland 2022</p>
+</footer>
+
+</html>

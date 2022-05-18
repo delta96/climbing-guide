@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <title>Landing Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./wolf-rock.css">
+    <script type="text/javascript">
+        function goToNewPage()
+        {
+            var url = document.getElementById('areas').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+</header>
+
+<body>
+    <div class="wrapper">
+        <div class="section-1">
+            <div class="header">
+                <h2 class="logo"><a href="../../index.html">Climb Maryland</a></h2>
+                <ul class="header-links">
+                    <li>
+                        <form>
+                        <select class="areas" id="areas" accesskey="target"> 
+                            <option value="../cunningham-falls/c-falls.html">Cunningham Falls</option>
+                            <option value="./wolf-rock.html">Wolf Rock</option>
+                            <input class="areas-button" type=button value="Go" onclick="goToNewPage()" />
+                        </select>
+                    </form>
+                    </li>
+                    <li>Directions</li>
+                    <!--
+                    <li>
+                        <form>
+                            <select class="areas" id="areas" accesskey="target"> 
+                                <option>Climbs</option>
+                                <option value="./pages/cunningham-falls/c-falls.html">Plankton</option>
+                                <option>Fig Newtons</option>
+                                <option>Humpback Whale</option>
+                                <option>What's the Plural of Doofus</option>
+                                <input class="areas-button" type=button value="Go" onclick="goToNewPage()" />
+                            </select>
+                        </form>
+                    </li> -->
+                </ul>
+            </div>
+            <div class="hero">
+                <div class="hero-content">
+                    <h2>Wolf Rock Bouldering</h2>
+                    <p>This is Wolf Rock Bouldering! This area hosts a cluster of boulders harboring some hidden classics!</p>
+                </div>
+                <div class="image">
+                    <img class="hero-pic" src="./images/podium.jpeg" alt="Landscape image of mountain lake">
+                </div>
+            </div>
+        </div>
+        <div class="section-2">
+            <div class="title">
+                <h3>Climbs</h3>
+            </div>
+            <div class="deck">
+                <div class="card">
+                    <img src='./images/crescent.jpeg' alt="crescent">
+                    <p><strong>Climb:</strong> Crescent <br>
+                        <strong>Grade:</strong> V0
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images/podium.jpeg" alt="Podium">
+                    </div>
+                    <p><strong>Climb:</strong> Podium <br>
+                        <strong>Grade:</strong> V0 R
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images/dry-rub.jpeg" alt="Dry Rub">
+                    <p><strong>Climb:</strong> Dry Rub <br>
+                        <strong>Grade:</strong> V1
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images/eye-of-needle.jpeg" alt="Eye of the Needle">
+                    <p><strong>Climb:</strong> Eye of the Needle <br>
+                        <strong>Grade:</strong> V1+
+                    </p>
+                </div>
+                <div class="card">
+                    <img src='./images/dont-swing.jpeg' alt="We Don't Swing 'round Here">
+                    <p><strong>Climb:</strong> We Don't Swing 'round Here <br>
+                        <strong>Grade:</strong> V1+ R
+                    </p>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="./images/straddle-me.jpeg" alt="Straddle Me">
+                    </div>
+                    <p><strong>Climb:</strong> Straddle Me <br>
+                        <strong>Grade:</strong> V2
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images/twofer.jpeg" alt="Two Fer">
+                    <p><strong>Climb:</strong> Two-fer <br>
+                        <strong>Grade:</strong> V2+
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images/check-yo-pants.jpeg" alt="Check Yo Pants">
+                    <p><strong>Climb:</strong> Check Yo Pants <br>
+                        <strong>Grade:</strong> V3+
+                    </p>
+                </div>
+                <div class="card">
+                    <img src='./images/check-yo-self.jpeg' alt="Check Yo Self">
+                    <p><strong>Climb:</strong> Check Yo Self <br>
+                        <strong>Grade:</strong> V3+ PG-13
+                    </p>
+                </div>
+                
+            
+            </div>
+        </div>
+        <div class="section-4">
+            <div class="action-card">
+                <div class="text">
+                    <h2>Fuel the Send!</h2>
+                    <p>Help expand the guide by supporting us!</p>
+                </div>
+                <div><button>Donate</button></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <p>Copyright © Climb Maryland 2022</p>
+</footer>
+
+</html>
