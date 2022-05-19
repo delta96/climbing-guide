@@ -81,6 +81,7 @@ button {
     border-style: solid;
     border-color: #E5E7EB;
     border-width: 5px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .logo {
@@ -161,6 +162,7 @@ button {
     border-color: cornflowerblue;
     border-radius: 15%;
     border-width: 3px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .section-3 {
