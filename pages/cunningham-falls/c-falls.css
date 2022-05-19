@@ -72,6 +72,7 @@ button {
     align-items: center;
     width: 500px;
     height: 220px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .hero-pic {
@@ -174,6 +175,7 @@ a:visited {
     border-color: cornflowerblue;
     border-radius: 15%;
     border-width: 3px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .section-3 {
