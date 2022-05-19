@@ -91,6 +91,7 @@ button {
     border-style: solid;
     border-color: snow;
     border-width: 5px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .logo {
@@ -319,6 +320,7 @@ a:visited {
     border-style: solid;
     border-color: cornflowerblue;
     border-width: 5px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .pop:hover {
@@ -334,6 +336,7 @@ a:visited {
     border-style: solid;
     border-color: cornflowerblue;
     border-width: 5px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .climb-pic3 {
@@ -343,6 +346,7 @@ a:visited {
     border-style: solid;
     border-color: cornflowerblue;
     border-width: 5px;
+    image-rendering: -webkit-optimize-contrast;
 }
 .section-3 {
     display: flex;
@@ -350,6 +354,7 @@ a:visited {
     align-items: center;
     background-color: #E5E7EB;
     padding: 60px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .quote-card {
