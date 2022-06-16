@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
 
-} 
+}
 
 body {
     width: 100%;
@@ -38,7 +38,7 @@ button {
     justify-content: space-between;
     margin: 0px 200px;
 
-    
+
 }
 
 .hero {
@@ -55,7 +55,7 @@ button {
     border-radius: 15px;
     border-style: solid;
     border-color: #3882F6;;
-    border-width: 5px; 
+    border-width: 5px;
     padding: 10px; */
 
 
@@ -117,7 +117,7 @@ a:visited {
     color: snow;
     text-decoration: none;
     list-style-type: none;
-    
+
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     gap: 15px;
@@ -313,40 +313,52 @@ a:visited {
     height: 250px;
 }
 
-.climb-pic {
-    width: 330px;
-    height: 250px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: cornflowerblue;
-    border-width: 5px;
-    image-rendering: -webkit-optimize-contrast;
+.climb-pic{
+  margin: 10px 50px;
 }
 
-.pop:hover {
-    transform: scale(1.8);
-    width: 80%;
-    height: 80;
+.climb-pic img{
+  transition: 1s;
+  padding: 10px;
+  width: 380px;
+  height:250px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 5px;
+  image-rendering: -webkit-optimize-contrast;
+
 }
+
+.climb-pic img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+
+
 
 .climb-pic2 {
-    width: 330px;
-    height: 250px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: cornflowerblue;
-    border-width: 5px;
-    image-rendering: -webkit-optimize-contrast;
+  transition: 1s;
+  padding: 10px;
+  width: 380px;
+  height:250px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 5px;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .climb-pic3 {
-    width: 330px;
-    height: 250px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: cornflowerblue;
-    border-width: 5px;
-    image-rendering: -webkit-optimize-contrast;
+  transition: 1s;
+  padding: 10px;
+  width: 380px;
+  height:250px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-width: 5px;
+  image-rendering: -webkit-optimize-contrast;
 }
 .section-3 {
     display: flex;
@@ -354,6 +366,7 @@ a:visited {
     align-items: center;
     background-color: #E5E7EB;
     padding: 60px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 .quote-card {
@@ -375,7 +388,7 @@ a:visited {
 
 .author {
 
-  align-self: flex-end; 
+  align-self: flex-end;
 }
 
 .section-4 {
