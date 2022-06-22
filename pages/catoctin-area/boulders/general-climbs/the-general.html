@@ -3,19 +3,12 @@
 <header>
     <title>Climb Maryland</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./the-general.css">
-    <script type="text/javascript">
-        function goToNewPage()
-        {
-            var url = document.getElementById('areas').value;
-            if(url != 'none') {
-                window.location = url;
-            }
-        }
-    </script>
+    <link  id='cssURL' rel="stylesheet" href="../../../../problemsCSS/standard.css">
+    
 </header>
 
 <body>
+    
     <div class="wrapper">
         <div class="section-1">
             <div class="header">
@@ -67,9 +60,7 @@
                     </p>
                 </div>
                 <div class="card-image">
-                    <a class="pop" href="">
-                        <img class="climb-pic" src="./beta-images/the-general-beta.jpg" alt="The General climb">
-                    </a>
+                    <img class="climb-pic" src="./beta-images/the-general-beta.jpg" alt="The General climb">
                 </div>
             </div>
             
@@ -106,7 +97,17 @@
             </div>
         </div>
     </div>
+    <button class='apple'>X</button>
 </body>
+<script type="text/javascript" src='./general-climbs.js'>
+    function goToNewPage()
+    {
+        var url = document.getElementById('areas').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+</script>
 
 <footer>
     <p>Copyright © Climb Maryland 2022</p>
